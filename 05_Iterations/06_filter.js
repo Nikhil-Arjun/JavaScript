@@ -7,9 +7,26 @@
 
 // console.log(values);
 
-const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// Filter->
+// The filter() method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
 
-// Filter
+// Syntax =>
+// filter(callbackFn)
+// filter(callbackFn, thisArg)
+
+const words = [
+  'Spray',
+  'limit',
+  'elite',
+  'exuberant',
+  'destruction',
+  'present',
+];
+
+const result = words.filter(word => word.length > 6);
+console.log(result);
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // const newNums = myNums.filter(num => num > 4);
 
