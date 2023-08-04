@@ -1,3 +1,10 @@
+// for...in statement
+// The for...in statement iterates a specified variable over all the enumerable properties of an object. For each disticr property, JavaScript executes the specified statements.
+
+// syntax->
+// for (variable in object)
+//    statement
+
 const myObject = {
   js: 'javascript',
   cpp: 'C++',
