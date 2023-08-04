@@ -1,3 +1,17 @@
+// forEach() ->
+// The forEach() method executes a provided function once for each array element
+
+// Syntax ->
+// forEach(callbackFn)
+// forEach(callbackFn, thisArg)
+
+// callbackFn -> A function to execute for rach element in the array. Its return value is discarded.
+// The function is called with the following arguments:
+//    Element ->
+//        The current element being processed in the array.
+//    index -> The index of the current element ibeing processed n the array
+//     array -. the array forEach() was called upon.
+
 const coding = ['js', 'ruby', 'java', 'python', 'cpp'];
 
 // coding.forEach(function (item) {
