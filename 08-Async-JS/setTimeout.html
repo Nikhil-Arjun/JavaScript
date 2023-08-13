@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Async</title>
+  </head>
+  <body>
+    <h4>Asynchronous js</h4>
+    <button id="stop">Stop</button>
+  </body>
+
+  <script>
+    // SetTimeout
+    const sayNikhil = () => {
+      console.log('Nikhil');
+    };
+
+    const changeText = () => {
+      document.querySelector('h4').innerHTML =
+        'Async is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript';
+    };
+
+    const changeMe = setTimeout(changeText, 5000);
+    // setTimeout(sayNikhil, 2000);
+
+    document.querySelector('#stop').addEventListener('click', () => {
+      clearTimeout(changeMe);
+      console.log('STOPPED');
+    });
+  </script>
+</html>
