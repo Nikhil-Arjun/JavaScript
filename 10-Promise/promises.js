@@ -67,7 +67,6 @@ When do we considered a promise fulfilled ?
 
 -> Creation of a promises Object is synchronous.
 
-![Promises-1](https://github.com/Nikhil-Arjun/JavaScript/assets/116294309/34f1743c-3838-4aa8-9e2a-096e1642be6e)
 
 
  */
